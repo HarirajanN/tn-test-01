@@ -1,0 +1,106 @@
+.font-very-small{
+    font-size: 10px;
+}
+
+.font-small{
+    font-size:11px;
+    font-weight: 600;
+}
+.font-mediam{
+    font-size: 12px;
+    font-weight: 700;
+}
+.font-large{
+    font-size: 15px;
+    font-weight: 700;
+}
+.zoom-in{
+    width: 20px;
+    height: 20px; 
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.zoom-out{
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.top-bar-I{
+    height: 30px;
+    padding-top: 3px;
+}
+.top-bar-list-3{
+    margin-left: 50px;
+}
+.stalin{
+    width: 40px;
+    height: 60px;
+}
+.kaligner{
+    width: 40px;
+    height: 60px;
+}
+.govt-logo{
+    width: 150px;
+    height: 50px;
+}
+.independent-logo{
+    width: 60px;
+    height:60px;
+}
+
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.nav-link:hover{
+    color: white;
+    background-color: rgba(240, 248, 255, 0.253);
+}
+.banner{
+    overflow-x: hidden;
+}
+.menu-icon{
+    width: 30px;
+    height: 30px;
+   text-align: center;
+   display: none;
+}
+/*--------------------------------------@media screen-----start------------------------------*/
+@media screen and (max-width:900px) {
+    .top-bar-I{
+        display: none;
+
+    }
+    .top-bar-II{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .nav{
+        display: none;
+    }
+}
+@media screen and (min-width:900px) {
+    .top-bar-III{
+        display: none;
+    }
+  
+}
+@media screen and (min-width:576px) {
+    .info-I{
+        margin-bottom:40px
+    }
+    .info-II{
+        margin-bottom:40px
+    }
+}
+
+
+
+/*--------------------------------------@media screen-----end------------------------------*/
+
